@@ -1,0 +1,10 @@
+.card-img-container {
+    height: 350px; /* Ajusta la altura para hacer el contenedor más grande */
+    overflow: hidden; /* Para recortar las imágenes que excedan el área */
+}
+
+.card-img-container img {
+    object-fit: cover; /* Hace que la imagen se ajuste sin deformarse */
+    width: 100%; /* Asegura que la imagen ocupe el ancho completo */
+    height: 100%; /* Asegura que la imagen ocupe la altura establecida */
+}

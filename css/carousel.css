@@ -1,0 +1,115 @@
+/* estilos-comunes.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita el scroll horizontal */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos comunes para la barra de navegación */
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #343a40; /* Fondo oscuro */
+}
+
+.navbar-brand {
+  font-size: 1.25rem; /* Tamaño de fuente del logo */
+  color: white !important; /* Asegura que el texto sea blanco */
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* Color de los enlaces */
+  padding: 10px 15px; /* Espaciado en los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #adb5bd !important; /* Color de hover para los enlaces */
+}
+
+/* Estilo para los botones dentro de la navbar */
+.navbar .btn {
+  padding: 5px 15px; /* Ajusta el tamaño de los botones */
+  font-size: 0.9rem; /* Tamaño de la fuente de los botones */
+}
+
+.navbar .btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.navbar .btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.navbar .btn-outline-success {
+  color: #198754;
+  border-color: #198754;
+}
+
+/* Ajuste del carrusel */
+#myCarousel {
+  flex: 1; /* Hace que el carrusel ocupe todo el espacio disponible */
+  margin-bottom: 0; /* Elimina el margen inferior */
+}
+
+.carousel, .carousel-inner, .carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 100vh; /* Ajusta la imagen a la altura de la ventana */
+  width: 100vw; /* Ajusta la imagen al ancho de la ventana */
+  object-fit: cover; /* Asegura que las imágenes no se distorsionen */
+}
+
+/* Subtítulos dentro del carrusel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+  padding: 1rem;
+}
+
+/* Botón de registro */
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Botón de donación */
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Estilo de los botones de control del carrusel */
+.carousel-control-prev, .carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+

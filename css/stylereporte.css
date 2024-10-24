@@ -1,0 +1,30 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+.card {
+    margin-bottom: 1.5rem;
+}
+.report-section {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    border-radius: 8px;
+}
+.recent-reports {
+    max-height: 450px;
+    overflow-y: auto;
+}
+.carousel {
+    max-width: 500px; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centrar el carrusel horizontalmente */
+}
+.carousel-item img {
+    margin: 10px auto; /* Márgenes superior e inferior de 10px */
+    max-height: 300px; /* Altura máxima de las imágenes */
+    object-fit: cover; /* Mantener proporción y recortar si es necesario */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
